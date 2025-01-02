@@ -17,15 +17,15 @@ public class contacMain {
 		String relation = null;
 
 		while (true) {
-			System.out.println("┌───────────────────┐");
-			System.out.println("│       list        │");
-			System.out.println("├───────────────────┤");
-			System.out.println("│  1. 사람 추가 하기 │");
-			System.out.println("│  2. 사람 목록 보기 │");
-			System.out.println("│  3. 사람 정보 수정 │");
-			System.out.println("│  4. 사람 정보 삭제 │");
-			System.out.println("│  5. 프로그램 종료  │");
-			System.out.println("└───────────────────┘");
+			System.out.println("┌────────────────────┐");
+			System.out.println("│       list         │");
+			System.out.println("├────────────────────┤");
+			System.out.println("│  1. 사람 추가 하기  │");
+			System.out.println("│  2. 사람 목록 보기  │");
+			System.out.println("│  3. 사람 정보 수정  │");
+			System.out.println("│  4. 사람 정보 삭제  │");
+			System.out.println("│  5. 프로그램 종료   │");
+			System.out.println("└────────────────────┘");
 			System.out.println("번호를 선택하세요 > ");
 			try {
 				number = Integer.parseInt(scanner.next());
